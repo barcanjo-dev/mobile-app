@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".view.AddUserActivity">
+
+    <TextView
+        android:id="@+id/text_view_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_address"
+        android:text="@string/add_user_address"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:autofillHints="postalAddress" />
+
+    <TextView
+        android:id="@+id/text_view_user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_age"
+        android:text="@string/add_user_age"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/text_view_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_email"
+        android:text="@string/add_user_email"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:autofillHints="emailAddress" />
+
+    <TextView
+        android:id="@+id/text_view_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_name"
+        android:text="@string/add_user_name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:autofillHints="name" />
+
+    <TextView
+        android:id="@+id/text_view_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_password"
+        android:text="@string/add_user_password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:autofillHints="password" />
+
+    <TextView
+        android:id="@+id/text_view_user_password_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_text_add_user_password_confirmation"
+        android:text="@string/add_user_password_confirmation"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_add_user_password_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:autofillHints="password" />
+
+    <Button
+        android:id="@+id/button_save_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user_save" />
+</LinearLayout>
